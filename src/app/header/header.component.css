@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+nav{
+  height: 70px;
+  text-align: center;
+}
+
+.navbar{
+  background-color: black;
+}
+
+
+li a{
+  margin-left: auto;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+li a:hover{
+  color: brown;
+  background-color: white;
+}
+
+li {
+  display: inline-block;
+  border-right: 1px solid black;
+  margin-left: auto ;
+}

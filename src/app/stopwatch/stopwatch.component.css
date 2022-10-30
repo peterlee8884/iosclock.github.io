@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+/* *{
+  box-sizing: border-box;
+} */
+:host{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 120px; 
+}
+
+.sw-container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background-color:black;
+  padding: 15px 20px;
+  text-align: center;
+  color: bisque;
+  width: 600px;
+  height: 300px;
+  border-radius: 5%;
+
+}
+.stopwatch{
+  font-size:35px;
+  margin-bottom:250px;
+}
+
+.button{
+  background-color: bisque;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  color: burlywood;
+  border-radius: 50%;
+}

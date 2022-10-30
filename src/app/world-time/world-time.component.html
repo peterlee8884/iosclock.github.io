@@ -1,0 +1,11 @@
+
+  <div class="container">
+    <h2 style="font-size:40px;color:black">世界時鐘</h2>
+    <hr>
+    <p id="areatime">台北時間 : {{todayDate | date:'shortTime'}}</p>
+    <p id="areatime">日本時間 : {{todayDate | date:'shortTime':'+0900'}}</p>
+    <p id="areatime">紐約時間 : {{todayDate | date:'shortTime':'+2000'}}</p>
+  </div>
+
+
+<!-- https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/ -->
